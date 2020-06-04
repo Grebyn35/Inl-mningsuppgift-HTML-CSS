@@ -1,0 +1,184 @@
+footer{
+	bottom:0px;
+	width:95%;
+	height:60px;
+	padding: 5px 20px;
+ }
+ nav{
+	 float: right;
+ }
+ nav ul{
+	 margin: 0;
+	 padding: 0;
+	 display: flex;
+ 
+ }
+ nav ul li{
+	 list-style: none;
+ }
+ nav ul li a{
+	 display: block;
+	 margin: 10px 0;
+	 padding: 10px 20px;
+	 text-decoration: none;
+	 color: #262626;
+ 
+ }
+ nav ul li a.active,
+ nav ul li a:hover{
+	 background: #069370;
+	 color: #fff;
+	 transition: .5s;
+ }
+ .clearfix{
+	 clear:both;
+ }
+ #hideButton{
+	 text-align: center;
+	 position: absolute;
+	 top: 28%;
+	 left: 50%;
+	 transform: translateX(-50%)translateY(-50%);
+ }
+ 
+ 
+ #toolbar{
+	 min-height: 100px;
+ }
+ #footer{
+ text-align: center;
+ font-size: 25px;
+ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ body{
+	 height:90%;
+ }
+ .submission-form{
+	 max-width: 400px;
+	 min-width: 200px;
+	 margin: 2rem auto;
+	 border: 1px solid #000000;
+	 padding: 2rem;
+	 box-shadow: 0 10px 15px rgba(0,0,0,.5);
+	 overflow: hidden;
+	 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ .submission-form h3{
+	 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ *{
+	 box-sizing: border-box;
+ }
+ input{
+		 display: block;
+		 width: 100%;
+		 border: 2px solid #2980B9;
+		 font-size: 18px;
+		 border-radius: 5px;
+ }
+ label{
+	 display: block;
+	 padding: 1rem 0 .25rem;
+	 text-transform: uppercase;
+	 font-size: 14px;
+	 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ #sendBtn{
+	 border: 0px;
+	 background-color: #2980B9;
+	 padding: .5rem;
+	 color: white;
+	 margin: 1rem 0;
+	 width: auto;
+	 text-transform: uppercase;
+	 cursor: pointer;
+	 transition: .3s background ease;
+ }
+ .vänster-kolumn{
+	 float: left;
+	 width: 75%;
+ }
+ .höger-kolumn{
+	 width: 25%;
+	 float: right;
+	 padding-left:20px; 
+ }
+ .infoKort{
+	 padding: 20px;
+	 background-color: #ffffff;
+	 margin-top: 20px;
+	 background:transparent;
+	 box-shadow: 0 10px 15px rgba(0,0,0,.5);
+	 overflow: hidden;
+	 border: 1px solid #000000;
+	 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ .infoKort img{
+	 width: 40%;
+	 border: 2px solid #000000;
+ }
+ .infoKort p{
+	 font-size: 25px;
+	 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+ }
+ body{
+	 font-family: Arial;
+	 margin: 0px;
+	 padding: 20px;
+	 background-image: url("/Bilder/Malaga.jpg");
+	 background-size: cover;
+ }
+ header{
+	 background:transparent;
+	 padding: 30px;
+ 
+ }
+ header h1{
+	 text-align: center;
+	 font-size: 40px;
+	 color: #000000;
+	 margin: 1.5 0px;
+ }
+ @media(max-width: 800px){
+	 .vänster-kolumn, .höger-kolumn{
+		 width: 100%;
+		 padding:0px;
+	 }
+ }
+ @media(max-width: 768px){
+	 .menu-toggle{
+		 display: block;
+		 width: 40px;
+		 height: 40px;
+		 margin: 10px;
+		 background: transparent;
+		 float: right;
+		 cursor: pointer;
+		 text-align: center;
+		 font-size: 30px;
+		 color: #069370;
+	 }
+	 .menu-toggle:before{
+		 content: '\f0c9';
+		 font-family: fontAwesome;
+		 line-height: 40px;
+	 }
+	 nav{
+		 display: none;
+ 
+	 }
+	 .menu-toggle.active:before{
+		 content: '\f00d';
+	 }
+	 nav.active{
+		 display: block;
+		 width: 100%;
+	 }
+	 nav.active ul{
+		 display: block;
+	 }
+	 nav.active ul li{
+		 display: block;
+	 }
+	 
+ }
